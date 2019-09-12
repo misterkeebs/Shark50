@@ -460,12 +460,12 @@ Wire Wire Line
 $Comp
 L acheronSymbols:MXSwitch SW1
 U 1 1 5D729623
-P 5825 2250
-F 0 "SW1" H 5750 2300 50  0000 L CNN
-F 1 "Esc" H 5825 2200 79  0000 C CNN
-F 2 "acheron_MX:MX100" H 5825 2250 50  0001 C CNN
-F 3 "" H 5825 2250 50  0001 C CNN
-	1    5825 2250
+P 5825 2225
+F 0 "SW1" H 5750 2275 50  0000 L CNN
+F 1 "Esc" H 5825 2175 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 5825 2225 50  0001 C CNN
+F 3 "" H 5825 2225 50  0001 C CNN
+	1    5825 2225
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -506,16 +506,7 @@ Wire Wire Line
 Wire Wire Line
 	5825 1700 5825 1450
 Wire Wire Line
-	5475 3275 5350 3275
-Wire Wire Line
-	5350 3275 5350 2250
-Wire Wire Line
 	6275 2225 6200 2225
-Wire Wire Line
-	5475 2250 5350 2250
-Connection ~ 5350 2250
-Wire Wire Line
-	5350 2250 5350 1275
 Text GLabel 5000 1450 0    50   Input ~ 0
 Row1
 Text GLabel 5000 2575 0    50   Input ~ 0
@@ -524,8 +515,6 @@ Text GLabel 5350 1275 1    50   Input ~ 0
 Col1
 Text GLabel 6200 1275 1    50   Input ~ 0
 Col2
-Wire Wire Line
-	6200 1275 6200 2225
 Wire Wire Line
 	2025 3275 2675 3275
 $Comp
@@ -571,11 +560,6 @@ Wire Wire Line
 	7075 2225 7000 2225
 Text GLabel 7000 1275 1    50   Input ~ 0
 Col3
-Wire Wire Line
-	7000 1275 7000 2225
-Connection ~ 7000 2225
-Wire Wire Line
-	7000 2225 7000 3250
 $Comp
 L acheronSymbols:MXSwitch SW4
 U 1 1 5D7BEBE3
@@ -608,9 +592,6 @@ Text GLabel 7800 1275 1    50   Input ~ 0
 Col4
 Wire Wire Line
 	7800 1275 7800 2225
-Connection ~ 7800 2225
-Wire Wire Line
-	7800 2225 7800 3250
 $Comp
 L acheronSymbols:MXSwitch SW5
 U 1 1 5D7C09E2
@@ -643,9 +624,6 @@ Text GLabel 8600 1275 1    50   Input ~ 0
 Col5
 Wire Wire Line
 	8600 1275 8600 2225
-Connection ~ 8600 2225
-Wire Wire Line
-	8600 2225 8600 3250
 $Comp
 L acheronSymbols:MXSwitch SW6
 U 1 1 5D7C25B0
@@ -676,11 +654,6 @@ Wire Wire Line
 	9475 2225 9400 2225
 Text GLabel 9400 1275 1    50   Input ~ 0
 Col6
-Wire Wire Line
-	9400 1275 9400 2225
-Connection ~ 9400 2225
-Wire Wire Line
-	9400 2225 9400 3250
 $Comp
 L acheronSymbols:MXSwitch SW7
 U 1 1 5D7C44B4
@@ -713,29 +686,26 @@ Text GLabel 10200 1275 1    50   Input ~ 0
 Col7
 Wire Wire Line
 	10200 1275 10200 2225
-Connection ~ 10200 2225
-Wire Wire Line
-	10200 2225 10200 3250
 $Comp
 L acheronSymbols:MXSwitch SW8
 U 1 1 5D7C75E2
-P 11450 2250
-F 0 "SW8" H 11375 2300 50  0000 L CNN
-F 1 "U" H 11450 2175 79  0000 C CNN
-F 2 "acheron_MX:MX100" H 11450 2250 50  0001 C CNN
-F 3 "" H 11450 2250 50  0001 C CNN
-	1    11450 2250
+P 11450 2225
+F 0 "SW8" H 11375 2275 50  0000 L CNN
+F 1 "U" H 11450 2150 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 11450 2225 50  0001 C CNN
+F 3 "" H 11450 2225 50  0001 C CNN
+	1    11450 2225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D8
 U 1 1 5D7C75E9
-P 11450 1800
-F 0 "D8" V 11404 1868 50  0000 L CNN
-F 1 "1N4148W" V 11495 1868 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 11450 1800 50  0001 C CNN
-F 3 "~" V 11450 1800 50  0001 C CNN
-	1    11450 1800
+P 11450 1775
+F 0 "D8" V 11404 1843 50  0000 L CNN
+F 1 "1N4148W" V 11495 1843 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 11450 1775 50  0001 C CNN
+F 3 "~" V 11450 1775 50  0001 C CNN
+	1    11450 1775
 	0    1    1    0   
 $EndComp
 $Comp
@@ -763,30 +733,13 @@ $EndComp
 Wire Wire Line
 	12250 1675 12250 1450
 Wire Wire Line
-	12250 1450 11450 1450
-Wire Wire Line
-	11450 1700 11450 1450
-Wire Wire Line
-	11450 1450 10625 1450
-Wire Wire Line
-	10975 3275 10975 2250
-Wire Wire Line
 	11900 2225 11825 2225
-Wire Wire Line
-	11100 2250 10975 2250
-Connection ~ 10975 2250
-Wire Wire Line
-	10975 2250 10975 1275
 Text GLabel 10975 1275 1    50   Input ~ 0
 Col8
 Text GLabel 11825 1275 1    50   Input ~ 0
 Col9
 Wire Wire Line
 	11825 1275 11825 2225
-Connection ~ 11825 2225
-Wire Wire Line
-	11825 2225 11825 3250
-Connection ~ 11450 1450
 $Comp
 L acheronSymbols:MXSwitch SW10
 U 1 1 5D7C760D
@@ -819,9 +772,6 @@ Text GLabel 12625 1275 1    50   Input ~ 0
 Col10
 Wire Wire Line
 	12625 1275 12625 2225
-Connection ~ 12625 2225
-Wire Wire Line
-	12625 2225 12625 3250
 $Comp
 L acheronSymbols:MXSwitch SW11
 U 1 1 5D7C7622
@@ -852,11 +802,6 @@ Wire Wire Line
 	13500 2225 13425 2225
 Text GLabel 13425 1275 1    50   Input ~ 0
 Col11
-Wire Wire Line
-	13425 1275 13425 2225
-Connection ~ 13425 2225
-Wire Wire Line
-	13425 2225 13425 3250
 $Comp
 L acheronSymbols:MXSwitch SW12
 U 1 1 5D7C7637
@@ -889,9 +834,6 @@ Text GLabel 14225 1275 1    50   Input ~ 0
 Col12
 Wire Wire Line
 	14225 1275 14225 2225
-Connection ~ 14225 2225
-Wire Wire Line
-	14225 2225 14225 3250
 $Comp
 L acheronSymbols:MXSwitch SW13
 U 1 1 5D7C764C
@@ -924,9 +866,6 @@ Text GLabel 15025 1275 1    50   Input ~ 0
 Col13
 Wire Wire Line
 	15025 1275 15025 2225
-Connection ~ 15025 2225
-Wire Wire Line
-	15025 2225 15025 3250
 $Comp
 L acheronSymbols:MXSwitch SW14
 U 1 1 5D7C7661
@@ -959,12 +898,1027 @@ Text GLabel 15825 1275 1    50   Input ~ 0
 Col14
 Wire Wire Line
 	15825 1275 15825 2225
-Connection ~ 15825 2225
-Wire Wire Line
-	15825 2225 15825 3250
 Connection ~ 5825 1450
 Wire Wire Line
 	5825 1450 5000 1450
 Wire Wire Line
 	6625 1450 5825 1450
+Wire Wire Line
+	5350 1275 5350 2225
+Wire Wire Line
+	5475 2225 5350 2225
+Wire Wire Line
+	10975 1275 10975 2225
+Wire Wire Line
+	11100 2225 10975 2225
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E6DA
+P 5825 3350
+F 0 "SW?" H 5750 3400 50  0000 L CNN
+F 1 "Tab" H 5825 3300 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 5825 3350 50  0001 C CNN
+F 3 "" H 5825 3350 50  0001 C CNN
+	1    5825 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E6E1
+P 5825 2900
+F 0 "D?" V 5779 2968 50  0000 L CNN
+F 1 "1N4148W" V 5870 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5825 2900 50  0001 C CNN
+F 3 "~" V 5825 2900 50  0001 C CNN
+	1    5825 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E6E8
+P 6625 3350
+F 0 "SW?" H 6550 3400 50  0000 L CNN
+F 1 "A" H 6625 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 6625 3350 50  0001 C CNN
+F 3 "" H 6625 3350 50  0001 C CNN
+	1    6625 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E6EF
+P 6625 2900
+F 0 "D?" V 6579 2968 50  0000 L CNN
+F 1 "1N4148W" V 6670 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6625 2900 50  0001 C CNN
+F 3 "~" V 6625 2900 50  0001 C CNN
+	1    6625 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 2800 6625 2575
+Wire Wire Line
+	6275 3350 6200 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E6FA
+P 7425 3350
+F 0 "SW?" H 7350 3400 50  0000 L CNN
+F 1 "S" H 7425 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 7425 3350 50  0001 C CNN
+F 3 "" H 7425 3350 50  0001 C CNN
+	1    7425 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E701
+P 7425 2900
+F 0 "D?" V 7379 2968 50  0000 L CNN
+F 1 "1N4148W" V 7470 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7425 2900 50  0001 C CNN
+F 3 "~" V 7425 2900 50  0001 C CNN
+	1    7425 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7425 2800 7425 2575
+Wire Wire Line
+	7075 3350 7000 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E70D
+P 8225 3350
+F 0 "SW?" H 8150 3400 50  0000 L CNN
+F 1 "D" H 8225 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 8225 3350 50  0001 C CNN
+F 3 "" H 8225 3350 50  0001 C CNN
+	1    8225 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E714
+P 8225 2900
+F 0 "D?" V 8179 2968 50  0000 L CNN
+F 1 "1N4148W" V 8270 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8225 2900 50  0001 C CNN
+F 3 "~" V 8225 2900 50  0001 C CNN
+	1    8225 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8225 2800 8225 2575
+Wire Wire Line
+	7875 3350 7800 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E720
+P 9025 3350
+F 0 "SW?" H 8950 3400 50  0000 L CNN
+F 1 "F" H 9025 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 9025 3350 50  0001 C CNN
+F 3 "" H 9025 3350 50  0001 C CNN
+	1    9025 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E727
+P 9025 2900
+F 0 "D?" V 8979 2968 50  0000 L CNN
+F 1 "1N4148W" V 9070 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 9025 2900 50  0001 C CNN
+F 3 "~" V 9025 2900 50  0001 C CNN
+	1    9025 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9025 2800 9025 2575
+Wire Wire Line
+	8675 3350 8600 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E733
+P 9825 3350
+F 0 "SW?" H 9750 3400 50  0000 L CNN
+F 1 "G" H 9775 3275 79  0000 L CNN
+F 2 "acheron_MX:MX100" H 9825 3350 50  0001 C CNN
+F 3 "" H 9825 3350 50  0001 C CNN
+	1    9825 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E73A
+P 9825 2900
+F 0 "D?" V 9779 2968 50  0000 L CNN
+F 1 "1N4148W" V 9870 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 9825 2900 50  0001 C CNN
+F 3 "~" V 9825 2900 50  0001 C CNN
+	1    9825 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9825 2800 9825 2575
+Wire Wire Line
+	9475 3350 9400 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E746
+P 10625 3350
+F 0 "SW?" H 10550 3400 50  0000 L CNN
+F 1 "H" H 10625 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 10625 3350 50  0001 C CNN
+F 3 "" H 10625 3350 50  0001 C CNN
+	1    10625 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E74D
+P 10625 2900
+F 0 "D?" V 10579 2968 50  0000 L CNN
+F 1 "1N4148W" V 10670 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 10625 2900 50  0001 C CNN
+F 3 "~" V 10625 2900 50  0001 C CNN
+	1    10625 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10625 2800 10625 2575
+Wire Wire Line
+	10275 3350 10200 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E759
+P 11450 3350
+F 0 "SW?" H 11375 3400 50  0000 L CNN
+F 1 "J" H 11450 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 11450 3350 50  0001 C CNN
+F 3 "" H 11450 3350 50  0001 C CNN
+	1    11450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E760
+P 11450 2900
+F 0 "D?" V 11404 2968 50  0000 L CNN
+F 1 "1N4148W" V 11495 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 11450 2900 50  0001 C CNN
+F 3 "~" V 11450 2900 50  0001 C CNN
+	1    11450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E767
+P 12250 3350
+F 0 "SW?" H 12175 3400 50  0000 L CNN
+F 1 "K" H 12250 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 12250 3350 50  0001 C CNN
+F 3 "" H 12250 3350 50  0001 C CNN
+	1    12250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E76E
+P 12250 2900
+F 0 "D?" V 12204 2968 50  0000 L CNN
+F 1 "1N4148W" V 12295 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 12250 2900 50  0001 C CNN
+F 3 "~" V 12250 2900 50  0001 C CNN
+	1    12250 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12250 2800 12250 2575
+Wire Wire Line
+	11900 3350 11825 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E77B
+P 13050 3350
+F 0 "SW?" H 12975 3400 50  0000 L CNN
+F 1 "L" H 13050 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 13050 3350 50  0001 C CNN
+F 3 "" H 13050 3350 50  0001 C CNN
+	1    13050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E782
+P 13050 2900
+F 0 "D?" V 13004 2968 50  0000 L CNN
+F 1 "1N4148W" V 13095 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 13050 2900 50  0001 C CNN
+F 3 "~" V 13050 2900 50  0001 C CNN
+	1    13050 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13050 2800 13050 2575
+Wire Wire Line
+	12700 3350 12625 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E78E
+P 13850 3350
+F 0 "SW?" H 13775 3400 50  0000 L CNN
+F 1 ";" H 13800 3275 79  0000 L CNN
+F 2 "acheron_MX:MX100" H 13850 3350 50  0001 C CNN
+F 3 "" H 13850 3350 50  0001 C CNN
+	1    13850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E795
+P 13850 2900
+F 0 "D?" V 13804 2968 50  0000 L CNN
+F 1 "1N4148W" V 13895 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 13850 2900 50  0001 C CNN
+F 3 "~" V 13850 2900 50  0001 C CNN
+	1    13850 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13850 2800 13850 2575
+Wire Wire Line
+	13500 3350 13425 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E7A1
+P 14650 3350
+F 0 "SW?" H 14575 3400 50  0000 L CNN
+F 1 "'" H 14625 3275 79  0000 L CNN
+F 2 "acheron_MX:MX100" H 14650 3350 50  0001 C CNN
+F 3 "" H 14650 3350 50  0001 C CNN
+	1    14650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E7A8
+P 14650 2900
+F 0 "D?" V 14604 2968 50  0000 L CNN
+F 1 "1N4148W" V 14695 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 14650 2900 50  0001 C CNN
+F 3 "~" V 14650 2900 50  0001 C CNN
+	1    14650 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14650 2800 14650 2575
+Wire Wire Line
+	14300 3350 14225 3350
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5D82E7B4
+P 15450 3350
+F 0 "SW?" H 15375 3400 50  0000 L CNN
+F 1 "Enter" H 15450 3275 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 15450 3350 50  0001 C CNN
+F 3 "" H 15450 3350 50  0001 C CNN
+	1    15450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5D82E7BB
+P 15450 2900
+F 0 "D?" V 15404 2968 50  0000 L CNN
+F 1 "1N4148W" V 15495 2968 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 15450 2900 50  0001 C CNN
+F 3 "~" V 15450 2900 50  0001 C CNN
+	1    15450 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15100 3350 15025 3350
+Wire Wire Line
+	5475 3350 5350 3350
+Wire Wire Line
+	11100 3350 10975 3350
+Wire Wire Line
+	15450 2575 15450 2800
+Connection ~ 6625 2575
+Wire Wire Line
+	6625 2575 7425 2575
+Connection ~ 7425 2575
+Wire Wire Line
+	7425 2575 8225 2575
+Connection ~ 8225 2575
+Wire Wire Line
+	8225 2575 9025 2575
+Connection ~ 9025 2575
+Wire Wire Line
+	9025 2575 9825 2575
+Connection ~ 9825 2575
+Wire Wire Line
+	9825 2575 10625 2575
+Connection ~ 10625 2575
+Connection ~ 12250 2575
+Wire Wire Line
+	12250 2575 13050 2575
+Connection ~ 13050 2575
+Wire Wire Line
+	13050 2575 13850 2575
+Connection ~ 13850 2575
+Wire Wire Line
+	13850 2575 14650 2575
+Connection ~ 14650 2575
+Wire Wire Line
+	14650 2575 15450 2575
+Wire Wire Line
+	15025 3350 15025 2225
+Connection ~ 15025 2225
+Wire Wire Line
+	14225 3350 14225 2225
+Connection ~ 14225 2225
+Wire Wire Line
+	13425 1275 13425 2225
+Connection ~ 13425 2225
+Wire Wire Line
+	13425 2225 13425 3350
+Wire Wire Line
+	12625 3350 12625 2225
+Connection ~ 12625 2225
+Wire Wire Line
+	11825 3350 11825 2225
+Connection ~ 11825 2225
+Wire Wire Line
+	10975 3350 10975 2225
+Connection ~ 10975 2225
+Wire Wire Line
+	10200 3350 10200 2225
+Connection ~ 10200 2225
+Wire Wire Line
+	9400 1275 9400 2225
+Connection ~ 9400 2225
+Wire Wire Line
+	9400 2225 9400 3350
+Wire Wire Line
+	8600 3350 8600 2225
+Connection ~ 8600 2225
+Wire Wire Line
+	7800 3350 7800 2225
+Connection ~ 7800 2225
+Wire Wire Line
+	7000 1275 7000 2225
+Connection ~ 7000 2225
+Wire Wire Line
+	7000 2225 7000 3350
+Connection ~ 5350 2225
+Wire Wire Line
+	6200 1275 6200 2225
+Connection ~ 6200 2225
+Wire Wire Line
+	6200 2225 6200 3350
+Wire Wire Line
+	10625 1450 11450 1450
+Wire Wire Line
+	11450 1675 11450 1450
+Connection ~ 11450 1450
+Wire Wire Line
+	11450 1450 12250 1450
+Connection ~ 10625 1450
+Connection ~ 9825 1450
+Connection ~ 12250 1450
+Connection ~ 13050 1450
+Connection ~ 13850 1450
+Connection ~ 14650 1450
+Connection ~ 15450 1450
+Connection ~ 9025 1450
+Connection ~ 8225 1450
+Connection ~ 7425 1450
+Connection ~ 6625 1450
+Wire Wire Line
+	11450 2800 11450 2575
+Wire Wire Line
+	10625 2575 11450 2575
+Connection ~ 11450 2575
+Wire Wire Line
+	11450 2575 12250 2575
+Wire Wire Line
+	5825 2800 5825 2575
+Wire Wire Line
+	5825 2575 6625 2575
+Wire Wire Line
+	5000 2575 5825 2575
+Connection ~ 5825 2575
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42C59
+P 5825 4475
+F 0 "SW?" H 5750 4525 50  0000 L CNN
+F 1 "LShift" H 5825 4425 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 5825 4475 50  0001 C CNN
+F 3 "" H 5825 4475 50  0001 C CNN
+	1    5825 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42C60
+P 5825 4025
+F 0 "D?" V 5779 4093 50  0000 L CNN
+F 1 "1N4148W" V 5870 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5825 4025 50  0001 C CNN
+F 3 "~" V 5825 4025 50  0001 C CNN
+	1    5825 4025
+	0    1    1    0   
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42C67
+P 6625 4475
+F 0 "SW?" H 6550 4525 50  0000 L CNN
+F 1 "Z" H 6625 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 6625 4475 50  0001 C CNN
+F 3 "" H 6625 4475 50  0001 C CNN
+	1    6625 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42C6E
+P 6625 4025
+F 0 "D?" V 6579 4093 50  0000 L CNN
+F 1 "1N4148W" V 6670 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6625 4025 50  0001 C CNN
+F 3 "~" V 6625 4025 50  0001 C CNN
+	1    6625 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 3925 6625 3700
+Wire Wire Line
+	6275 4475 6200 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42C77
+P 7425 4475
+F 0 "SW?" H 7350 4525 50  0000 L CNN
+F 1 "X" H 7425 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 7425 4475 50  0001 C CNN
+F 3 "" H 7425 4475 50  0001 C CNN
+	1    7425 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42C7E
+P 7425 4025
+F 0 "D?" V 7379 4093 50  0000 L CNN
+F 1 "1N4148W" V 7470 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7425 4025 50  0001 C CNN
+F 3 "~" V 7425 4025 50  0001 C CNN
+	1    7425 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7425 3925 7425 3700
+Wire Wire Line
+	7075 4475 7000 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42C87
+P 8225 4475
+F 0 "SW?" H 8150 4525 50  0000 L CNN
+F 1 "C" H 8225 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 8225 4475 50  0001 C CNN
+F 3 "" H 8225 4475 50  0001 C CNN
+	1    8225 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42C8E
+P 8225 4025
+F 0 "D?" V 8179 4093 50  0000 L CNN
+F 1 "1N4148W" V 8270 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8225 4025 50  0001 C CNN
+F 3 "~" V 8225 4025 50  0001 C CNN
+	1    8225 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8225 3925 8225 3700
+Wire Wire Line
+	7875 4475 7800 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42C97
+P 9025 4475
+F 0 "SW?" H 8950 4525 50  0000 L CNN
+F 1 "V" H 9025 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 9025 4475 50  0001 C CNN
+F 3 "" H 9025 4475 50  0001 C CNN
+	1    9025 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42C9E
+P 9025 4025
+F 0 "D?" V 8979 4093 50  0000 L CNN
+F 1 "1N4148W" V 9070 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 9025 4025 50  0001 C CNN
+F 3 "~" V 9025 4025 50  0001 C CNN
+	1    9025 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9025 3925 9025 3700
+Wire Wire Line
+	8675 4475 8600 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42CA8
+P 9825 4475
+F 0 "SW?" H 9750 4525 50  0000 L CNN
+F 1 "B" H 9775 4400 79  0000 L CNN
+F 2 "acheron_MX:MX100" H 9825 4475 50  0001 C CNN
+F 3 "" H 9825 4475 50  0001 C CNN
+	1    9825 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42CAF
+P 9825 4025
+F 0 "D?" V 9779 4093 50  0000 L CNN
+F 1 "1N4148W" V 9870 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 9825 4025 50  0001 C CNN
+F 3 "~" V 9825 4025 50  0001 C CNN
+	1    9825 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9825 3925 9825 3700
+Wire Wire Line
+	9475 4475 9400 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42CB9
+P 10625 4475
+F 0 "SW?" H 10550 4525 50  0000 L CNN
+F 1 "N" H 10625 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 10625 4475 50  0001 C CNN
+F 3 "" H 10625 4475 50  0001 C CNN
+	1    10625 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42CC0
+P 10625 4025
+F 0 "D?" V 10579 4093 50  0000 L CNN
+F 1 "1N4148W" V 10670 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 10625 4025 50  0001 C CNN
+F 3 "~" V 10625 4025 50  0001 C CNN
+	1    10625 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10625 3925 10625 3700
+Wire Wire Line
+	10275 4475 10200 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42CCA
+P 11450 4475
+F 0 "SW?" H 11375 4525 50  0000 L CNN
+F 1 "M" H 11450 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 11450 4475 50  0001 C CNN
+F 3 "" H 11450 4475 50  0001 C CNN
+	1    11450 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42CD1
+P 11450 4025
+F 0 "D?" V 11404 4093 50  0000 L CNN
+F 1 "1N4148W" V 11495 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 11450 4025 50  0001 C CNN
+F 3 "~" V 11450 4025 50  0001 C CNN
+	1    11450 4025
+	0    1    1    0   
+$EndComp
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42CD8
+P 12250 4475
+F 0 "SW?" H 12175 4525 50  0000 L CNN
+F 1 "<" H 12250 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 12250 4475 50  0001 C CNN
+F 3 "" H 12250 4475 50  0001 C CNN
+	1    12250 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42CDF
+P 12250 4025
+F 0 "D?" V 12204 4093 50  0000 L CNN
+F 1 "1N4148W" V 12295 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 12250 4025 50  0001 C CNN
+F 3 "~" V 12250 4025 50  0001 C CNN
+	1    12250 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12250 3925 12250 3700
+Wire Wire Line
+	11900 4475 11825 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42CE9
+P 13050 4475
+F 0 "SW?" H 12975 4525 50  0000 L CNN
+F 1 ">" H 13050 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 13050 4475 50  0001 C CNN
+F 3 "" H 13050 4475 50  0001 C CNN
+	1    13050 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42CF0
+P 13050 4025
+F 0 "D?" V 13004 4093 50  0000 L CNN
+F 1 "1N4148W" V 13095 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 13050 4025 50  0001 C CNN
+F 3 "~" V 13050 4025 50  0001 C CNN
+	1    13050 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13050 3925 13050 3700
+Wire Wire Line
+	12700 4475 12625 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42CFA
+P 13850 4475
+F 0 "SW?" H 13775 4525 50  0000 L CNN
+F 1 "/" H 13800 4400 79  0000 L CNN
+F 2 "acheron_MX:MX100" H 13850 4475 50  0001 C CNN
+F 3 "" H 13850 4475 50  0001 C CNN
+	1    13850 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42D01
+P 13850 4025
+F 0 "D?" V 13804 4093 50  0000 L CNN
+F 1 "1N4148W" V 13895 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 13850 4025 50  0001 C CNN
+F 3 "~" V 13850 4025 50  0001 C CNN
+	1    13850 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13850 3925 13850 3700
+Wire Wire Line
+	13500 4475 13425 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42D0B
+P 14650 4475
+F 0 "SW?" H 14575 4525 50  0000 L CNN
+F 1 "RShift" H 14625 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 14650 4475 50  0001 C CNN
+F 3 "" H 14650 4475 50  0001 C CNN
+	1    14650 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42D12
+P 14650 4025
+F 0 "D?" V 14604 4093 50  0000 L CNN
+F 1 "1N4148W" V 14695 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 14650 4025 50  0001 C CNN
+F 3 "~" V 14650 4025 50  0001 C CNN
+	1    14650 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14650 3925 14650 3700
+Wire Wire Line
+	14300 4475 14225 4475
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB42D1C
+P 15450 4475
+F 0 "SW?" H 15375 4525 50  0000 L CNN
+F 1 "Fn" H 15450 4400 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 15450 4475 50  0001 C CNN
+F 3 "" H 15450 4475 50  0001 C CNN
+	1    15450 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB42D23
+P 15450 4025
+F 0 "D?" V 15404 4093 50  0000 L CNN
+F 1 "1N4148W" V 15495 4093 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 15450 4025 50  0001 C CNN
+F 3 "~" V 15450 4025 50  0001 C CNN
+	1    15450 4025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15100 4475 15025 4475
+Wire Wire Line
+	5475 4475 5350 4475
+Wire Wire Line
+	11100 4475 10975 4475
+Wire Wire Line
+	15450 3700 15450 3925
+Connection ~ 6625 3700
+Wire Wire Line
+	6625 3700 7425 3700
+Connection ~ 7425 3700
+Wire Wire Line
+	7425 3700 8225 3700
+Connection ~ 8225 3700
+Wire Wire Line
+	8225 3700 9025 3700
+Connection ~ 9025 3700
+Wire Wire Line
+	9025 3700 9825 3700
+Connection ~ 9825 3700
+Wire Wire Line
+	9825 3700 10625 3700
+Connection ~ 10625 3700
+Connection ~ 12250 3700
+Wire Wire Line
+	12250 3700 13050 3700
+Connection ~ 13050 3700
+Wire Wire Line
+	13050 3700 13850 3700
+Connection ~ 13850 3700
+Wire Wire Line
+	13850 3700 14650 3700
+Connection ~ 14650 3700
+Wire Wire Line
+	14650 3700 15450 3700
+Wire Wire Line
+	14225 4475 14225 3350
+Wire Wire Line
+	12625 4475 12625 3350
+Wire Wire Line
+	11825 4475 11825 3350
+Wire Wire Line
+	10975 4475 10975 3350
+Wire Wire Line
+	10200 4475 10200 3350
+Wire Wire Line
+	8600 4475 8600 3350
+Wire Wire Line
+	7800 4475 7800 3350
+Wire Wire Line
+	6200 3350 6200 4475
+Wire Wire Line
+	11450 3925 11450 3700
+Wire Wire Line
+	10625 3700 11450 3700
+Connection ~ 11450 3700
+Wire Wire Line
+	11450 3700 12250 3700
+Wire Wire Line
+	5825 3925 5825 3700
+Wire Wire Line
+	5825 3700 6625 3700
+Wire Wire Line
+	5000 3700 5825 3700
+Connection ~ 5825 3700
+Text GLabel 5000 3700 0    50   Input ~ 0
+Row3
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB5C72A
+P 5825 5625
+F 0 "SW?" H 5750 5675 50  0000 L CNN
+F 1 "LCtrl" H 5825 5575 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 5825 5625 50  0001 C CNN
+F 3 "" H 5825 5625 50  0001 C CNN
+	1    5825 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB5C731
+P 5825 5175
+F 0 "D?" V 5779 5243 50  0000 L CNN
+F 1 "1N4148W" V 5870 5243 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5825 5175 50  0001 C CNN
+F 3 "~" V 5825 5175 50  0001 C CNN
+	1    5825 5175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5475 5625 5350 5625
+Wire Wire Line
+	5825 5075 5825 4850
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB67F96
+P 7475 5625
+F 0 "SW?" H 7400 5675 50  0000 L CNN
+F 1 "LAlt" H 7475 5575 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 7475 5625 50  0001 C CNN
+F 3 "" H 7475 5625 50  0001 C CNN
+	1    7475 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB67F9D
+P 7475 5175
+F 0 "D?" V 7429 5243 50  0000 L CNN
+F 1 "1N4148W" V 7520 5243 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7475 5175 50  0001 C CNN
+F 3 "~" V 7475 5175 50  0001 C CNN
+	1    7475 5175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7475 5075 7475 4850
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB73E32
+P 9850 5625
+F 0 "SW?" H 9775 5675 50  0000 L CNN
+F 1 "Space" H 9850 5575 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 9850 5625 50  0001 C CNN
+F 3 "" H 9850 5625 50  0001 C CNN
+	1    9850 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB73E39
+P 9850 5175
+F 0 "D?" V 9804 5243 50  0000 L CNN
+F 1 "1N4148W" V 9895 5243 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 9850 5175 50  0001 C CNN
+F 3 "~" V 9850 5175 50  0001 C CNN
+	1    9850 5175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 5075 9850 4850
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB80062
+P 13850 5625
+F 0 "SW?" H 13775 5675 50  0000 L CNN
+F 1 "RAlt" H 13850 5550 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 13850 5625 50  0001 C CNN
+F 3 "" H 13850 5625 50  0001 C CNN
+	1    13850 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB80069
+P 13850 5175
+F 0 "D?" V 13804 5243 50  0000 L CNN
+F 1 "1N4148W" V 13895 5243 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 13850 5175 50  0001 C CNN
+F 3 "~" V 13850 5175 50  0001 C CNN
+	1    13850 5175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13850 5075 13850 4850
+Wire Wire Line
+	13500 5625 13425 5625
+$Comp
+L acheronSymbols:MXSwitch SW?
+U 1 1 5DB8C581
+P 15450 5625
+F 0 "SW?" H 15375 5675 50  0000 L CNN
+F 1 "RCtr" H 15450 5525 79  0000 C CNN
+F 2 "acheron_MX:MX100" H 15450 5625 50  0001 C CNN
+F 3 "" H 15450 5625 50  0001 C CNN
+	1    15450 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 5DB8C588
+P 15450 5175
+F 0 "D?" V 15404 5243 50  0000 L CNN
+F 1 "1N4148W" V 15495 5243 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 15450 5175 50  0001 C CNN
+F 3 "~" V 15450 5175 50  0001 C CNN
+	1    15450 5175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15450 5075 15450 4850
+Wire Wire Line
+	15100 5625 15025 5625
+Wire Wire Line
+	9500 5625 9400 5625
+Wire Wire Line
+	9400 4475 9400 5625
+Connection ~ 15025 4475
+Wire Wire Line
+	15025 4475 15025 5625
+Wire Wire Line
+	15025 3350 15025 4475
+Wire Wire Line
+	5350 2225 5350 3350
+Connection ~ 5350 3350
+Text GLabel 5025 4850 0    50   Input ~ 0
+Row4
+Wire Wire Line
+	5050 4850 5825 4850
+Connection ~ 5825 4850
+Wire Wire Line
+	5825 4850 7475 4850
+Connection ~ 9850 4850
+Wire Wire Line
+	9850 4850 13850 4850
+Connection ~ 13850 4850
+Wire Wire Line
+	13850 4850 15450 4850
+Connection ~ 7475 4850
+Wire Wire Line
+	7475 4850 9850 4850
+Wire Wire Line
+	5350 3350 5350 4475
+Connection ~ 5350 4475
+Wire Wire Line
+	5350 4475 5350 5625
+Wire Wire Line
+	7000 3350 7000 4475
+Wire Wire Line
+	7000 5625 7125 5625
+Connection ~ 7000 3350
+Connection ~ 7000 4475
+Wire Wire Line
+	7000 4475 7000 5625
+Wire Wire Line
+	9400 3350 9400 4475
+Connection ~ 9400 3350
+Connection ~ 9400 4475
+Wire Wire Line
+	13425 3350 13425 4475
+Connection ~ 13425 3350
+Connection ~ 13425 4475
+Wire Wire Line
+	13425 4475 13425 5625
 $EndSCHEMATC
