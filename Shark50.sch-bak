@@ -1908,6 +1908,8 @@ Wire Wire Line
 	950  1450 1275 1450
 Wire Wire Line
 	950  2000 1275 2000
+Wire Wire Line
+	1450 3550 1450 3625
 $Comp
 L Device:C_Small C9
 U 1 1 5FBB32C5
@@ -1941,10 +1943,10 @@ $EndComp
 Wire Wire Line
 	2575 2775 2675 2775
 $Comp
-L Device:C_Small C10
+L Device:C_Small C?
 U 1 1 5FC25E6B
 P 3650 1050
-F 0 "C10" V 3450 1050 50  0000 C CNN
+F 0 "C?" V 3450 1050 50  0000 C CNN
 F 1 "100n" V 3525 1050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3650 1050 50  0001 C CNN
 F 3 "~" H 3650 1050 50  0001 C CNN
@@ -1959,6 +1961,4 @@ Wire Wire Line
 	3650 1150 3650 1250
 Wire Wire Line
 	3350 875  3650 875 
-Wire Wire Line
-	1450 3625 1450 3575
 $EndSCHEMATC
